@@ -54,7 +54,7 @@ class KMP_Algorithm
         return nom;
     }
 
-    void ComputeLPSArray(string pat, int M, int[] lps)
+    static void ComputeLPSArray(string pat, int M, int[] lps)
     {
         // Довжина попереднього найдовшого суфікса префікса
         int len = 0;
